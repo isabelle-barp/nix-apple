@@ -7,11 +7,12 @@
       autoUpdate = true;
       cleanup = "zap";
     };
-    brews = [ "mas" ];
+    brews = [ "gemini-cli" "gh" "mas" ];
     casks = [
       "1password"
       "1password-cli"
       "claude-code"
+      "firefox"
       "google-chrome"
       "jetbrains-toolbox"
       "orbstack"

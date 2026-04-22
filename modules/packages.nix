@@ -6,6 +6,7 @@
     vim
     htop
     nodejs
+    pnpm
     nixd
     nixfmt-rfc-style
   ];
