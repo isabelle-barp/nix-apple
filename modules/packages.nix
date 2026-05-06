@@ -6,6 +6,8 @@
     vim
     htop
     nodejs
+    corepack
+    localstack
     pnpm
     nixd
     nixfmt-rfc-style

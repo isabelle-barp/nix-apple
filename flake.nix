@@ -8,7 +8,7 @@
   };
 
   outputs = inputs@{ self, nix-darwin, nixpkgs }: {
-    darwinConfigurations."Isabelles-Mac-Studio" = nix-darwin.lib.darwinSystem {
+    darwinConfigurations."Isabelles-MacBook-Pro" = nix-darwin.lib.darwinSystem {
       system = "aarch64-darwin";
       modules = [
         ./hosts/mac-studio

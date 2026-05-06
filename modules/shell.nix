@@ -37,6 +37,9 @@ in
       alias rebuild-dry="darwin-rebuild build --flake ${flakePath}"
       alias flake-update="nix flake update --flake ${flakePath}"
 
+      # CodeRabbit
+      alias cr="coderabbit"
+
       # AI aliases
       alias ai="ai-status"
       alias ai-start="ollama-start"
