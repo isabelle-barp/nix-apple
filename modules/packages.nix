@@ -3,13 +3,16 @@
 {
   environment.systemPackages = with pkgs; [
     git
+    git-lfs
     vim
     htop
     nodejs
     corepack
+    python3
     localstack
-    pnpm
     nixd
     nixfmt-rfc-style
+    gitkraken
+    aseprite
   ];
 }

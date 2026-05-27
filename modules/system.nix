@@ -2,9 +2,11 @@
 
 {
   system.defaults = {
-    dock.autohide = true;
+    dock.autohide = false;
+    dock.orientation = "left";
+    dock.tilesize = 128;
     finder.AppleShowAllExtensions = true;
-    finder.FXPreferredViewStyle = "Nlsv";
+    finder.FXPreferredViewStyle = "clmv";
     CustomUserPreferences."com.apple.finder".ShowPreviewPane = true;
   };
 }

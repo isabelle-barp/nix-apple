@@ -1,6 +1,11 @@
-{ pkgs, ... }:
+{ pkgs, lib, ... }:
 
 {
+  nixpkgs.config.allowUnfreePredicate = pkg: builtins.elem (lib.getName pkg) [
+    "aseprite"
+    "gitkraken"
+  ];
+
   imports = [
     ../../modules/packages.nix
     ../../modules/homebrew.nix
