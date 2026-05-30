@@ -12,6 +12,7 @@
     ../../modules/system.nix
     ../../modules/ai.nix
     ../../modules/shell.nix
+    ../../modules/spotlight.nix
   ];
 
   system.primaryUser = "isabelle";
