@@ -8,6 +8,7 @@
     htop
     nodejs
     corepack
+    devcontainer
     python3
     localstack
     nixd
