@@ -27,6 +27,7 @@
       "jetbrains-toolbox"
       "lapce"
       "mongodb-compass"
+      "openwebstart"
       "orbstack"
       "postman"
       "spotify"
