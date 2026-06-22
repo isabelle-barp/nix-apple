@@ -10,8 +10,8 @@
       # force flag; this nix-darwin rev doesn't add one. Required for `zap`.
       extraFlags = [ "--force-cleanup" ];
     };
-    taps = [ "jetbrains/utils" ];
-    brews = [ "gemini-cli" "gh" "mas" "supabase" "jetbrains/utils/qodana" ];
+    taps = [ "jetbrains/utils" "mongodb/brew" ];
+    brews = [ "gemini-cli" "gh" "mas" "supabase" "jetbrains/utils/qodana" "mongodb/brew/mongodb-community" ];
     casks = [
       "1password"
       "1password-cli"
@@ -26,11 +26,13 @@
       "google-chrome"
       "jetbrains-toolbox"
       "lapce"
+      "mongodb-compass"
       "orbstack"
       "postman"
       "spotify"
       "wavebox"
       "unity-hub"
+      "visual-studio-code"
       "yubico-authenticator"
       "zed"
       "font-fira-code-nerd-font"

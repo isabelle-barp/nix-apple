@@ -1,0 +1,5 @@
+# macOS
+.DS_Store
+
+# nix-darwin build artifact (symlink into /nix/store)
+result
