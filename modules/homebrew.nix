@@ -31,6 +31,7 @@
       "orbstack"
       "postman"
       "spotify"
+      "temurin"
       "wavebox"
       "unity-hub"
       "visual-studio-code"

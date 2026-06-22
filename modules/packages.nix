@@ -8,7 +8,7 @@
     htop
     nodejs
     corepack
-    jdk11
+    gradle
     devcontainer
     python3
     localstack
